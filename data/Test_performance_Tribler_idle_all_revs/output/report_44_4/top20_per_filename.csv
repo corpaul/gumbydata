@@ -1,0 +1,17 @@
+"","FILE","type","PROCESS","BYTES"
+"6","/home/jenkins/workspace/Test_performance_Tribler_idle_all_revs/tribler/Tribler/Test/test_.Tribler/sqlite","other","python",1127012
+"8","/home/jenkins/workspace/Test_performance_Tribler_idle_all_revs/tribler/Tribler/Test/test_.Tribler/sqlite/tribler.sdb-journal","other","python",26277
+"5","/home/jenkins/workspace/Test_performance_Tribler_idle_all_revs/tribler/Tribler/Test/test_.Tribler/sessconfig.pickle","other","python",1994
+"12","./Tribler/Core/CacheDB/thread.pyc","other","python",406
+"16","/var/cache/fontconfig/6333f38776742d18e214673cd2c24e34-le64.cache-3","other","python",308
+"1","","other","python",269
+"3","/home/jenkins/workspace/Test_performance_Tribler_idle_all_revs/tribler/Tribler/Test/test_.Tribler/ec.pem","other","python",211
+"4","/home/jenkins/workspace/Test_performance_Tribler_idle_all_revs/tribler/Tribler/Test/test_.Tribler/ecpub.pem","other","python",166
+"15","/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf","other","python",137
+"13","./Tribler/Core/Swift/SwiftDownloadImpl.py","other","python",109
+"14","./Tribler/Core/Swift/SwiftDownloadRuntimeConfig.py","other","python",105
+"2","/home/jenkins/venv/lib/python2.7/encodings/asciimodule.so","other","python",104
+"7","/home/jenkins/workspace/Test_performance_Tribler_idle_all_revs/tribler/Tribler/Test/test_.Tribler/sqlite/dispersy.db-shm","other","python",44
+"9","logger.conf","other","python",37
+"10","output/annotations.txt","other","python",32
+"11","/tmp/tmp.fSfWNANa8g/.Xdefaults-gorilla2","other","python",24

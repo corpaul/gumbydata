@@ -1,0 +1,383 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+    <title>IO Writes Report</title>
+    <link type="text/css" href="io_writes_report.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/jenkins/static/5ab39aca/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/jenkins/static/5ab39aca/css/color.css" />
+    <link rel="stylesheet" type="text/css" href="/jenkins/static/5ab39aca/scripts/yui/container/assets/container.css" />
+    <link rel="stylesheet" type="text/css" href="/jenkins/static/5ab39aca/scripts/yui/assets/skins/sam/skin.css" />
+    <link rel="stylesheet" type="text/css" href="/jenkins/static/5ab39aca/scripts/yui/container/assets/skins/sam/container.css" />
+    <link rel="stylesheet" type="text/css" href="/jenkins/static/5ab39aca/scripts/yui/button/assets/skins/sam/button.css" />
+    <link rel="stylesheet" type="text/css" href="/jenkins/static/5ab39aca/scripts/yui/menu/assets/skins/sam/menu.css" />
+</head>
+<body>
+
+
+
+	<ul id="navigation">
+    
+    </ul>
+
+    <h1>IO Writes Report</h1>
+	<p>Report name: report_42_4<br>Data monitored for: Lalla arr<br>Total number of write transactions is: 3<br>Total bytes written is: 356<br>
+	</p>
+
+	<h2>Top writes (per filename):</h2>
+	<object data="top_per_filename.svg" type="image/svg+xml"></object>
+
+
+
+	<table border=1>
+	<tr>
+		<th></th>
+		<th>Filename</th>
+		<th>Process</th>
+		<th>Bytes</th>
+	</tr>
+	
+		<tr>
+			<td>1</td>
+			<td>/var/cache/fontconfig/6333f38776742d18e214673cd2c24e34-le64.cache-3</td>
+			<td>python</td>
+			<td>308</td>
+		</tr>
+    
+		<tr>
+			<td>2</td>
+			<td>output/annotations.txt</td>
+			<td>python</td>
+			<td>32</td>
+		</tr>
+    
+		<tr>
+			<td>3</td>
+			<td>/tmp/tmp.fSfWNANa8g/.Xdefaults-gorilla2</td>
+			<td>python</td>
+			<td>16</td>
+		</tr>
+    
+	</table>
+
+    <h2>Top writes (per stacktrace):</h2>
+	<table border=1>
+	<tr>
+		<th></th>
+		<th>Stacktrace</th>
+		<th>Filename</th>
+		<th>Process</th>
+		<th>Bytes</th>
+		<th># calls</th>
+	</tr>
+	
+		<tr>
+			<td>1</td>
+			<td><div class="stacktrace">/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_gdi.py:GetFont (1)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_gdi.py:_initStockObjects (0)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:OnPreInit (0)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:_BootstrapApp (1)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:__init__ (0)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:__init__ (0)<br>./Tribler/Test/test_as_server.py:setUp (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/case.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/case.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/runner.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/main.py:runTests (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/main.py:__init__ (0)<br>gumby/experiments/tribler_idle_run/tribler_idle_run.py:<module> (0)</div></td>
+			<td>other</td>
+			<td>python</td>
+			<td>308</td>
+			<td>1</td>
+		</tr>
+    
+		<tr>
+			<td>2</td>
+			<td><div class="stacktrace">./Tribler/Test/test_as_server.py:annotate (1)<br>./Tribler/Test/test_as_server.py:setUp (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/case.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/case.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/runner.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/main.py:runTests (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/main.py:__init__ (0)<br>gumby/experiments/tribler_idle_run/tribler_idle_run.py:<module> (0)</div></td>
+			<td>other</td>
+			<td>python</td>
+			<td>32</td>
+			<td>1</td>
+		</tr>
+    
+		<tr>
+			<td>3</td>
+			<td><div class="stacktrace">/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:_BootstrapApp (1)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:__init__ (0)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:__init__ (0)<br>./Tribler/Test/test_as_server.py:setUp (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/case.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/case.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/runner.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/main.py:runTests (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/main.py:__init__ (0)<br>gumby/experiments/tribler_idle_run/tribler_idle_run.py:<module> (0)</div></td>
+			<td>other</td>
+			<td>python</td>
+			<td>16</td>
+			<td>1</td>
+		</tr>
+    
+		<tr>
+			<td>4</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>5</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>6</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>7</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>8</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>9</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>10</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>11</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>12</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>13</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>14</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>15</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>16</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>17</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>18</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>19</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>20</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>21</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>22</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>23</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>24</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>25</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>26</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>27</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>28</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>29</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+		<tr>
+			<td>30</td>
+			<td><div class="stacktrace">NA</div></td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+			<td>NA</td>
+		</tr>
+    
+	</table>
+
+ <h2>Top largest writes (absolute no. of bytes):</h2>
+	<table border=1>
+	<tr>
+		<th></th>
+		<th>Stacktrace</th>
+		<th>Filename</th>
+		<th>Process</th>
+		<th>Bytes</th>
+	</tr>
+	
+		<tr>
+			<td>1</td>
+			<td><div class="stacktrace">/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_gdi.py:GetFont (1)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_gdi.py:_initStockObjects (0)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:OnPreInit (0)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:_BootstrapApp (1)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:__init__ (0)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:__init__ (0)<br>./Tribler/Test/test_as_server.py:setUp (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/case.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/case.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/runner.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/main.py:runTests (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/main.py:__init__ (0)<br>gumby/experiments/tribler_idle_run/tribler_idle_run.py:<module> (0)</div></td>
+			<td>/var/cache/fontconfig/6333f38776742d18e214673cd2c24e34-le64.cache-3</td>
+			<td>python</td>
+			<td>308</td>
+		</tr>
+    
+		<tr>
+			<td>2</td>
+			<td><div class="stacktrace">./Tribler/Test/test_as_server.py:annotate (1)<br>./Tribler/Test/test_as_server.py:setUp (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/case.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/case.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/runner.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/main.py:runTests (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/main.py:__init__ (0)<br>gumby/experiments/tribler_idle_run/tribler_idle_run.py:<module> (0)</div></td>
+			<td>output/annotations.txt</td>
+			<td>python</td>
+			<td>32</td>
+		</tr>
+    
+		<tr>
+			<td>3</td>
+			<td><div class="stacktrace">/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:_BootstrapApp (1)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:__init__ (0)<br>/home/jenkins/venv/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/_core.py:__init__ (0)<br>./Tribler/Test/test_as_server.py:setUp (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/case.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/case.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/suite.py:__call__ (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/runner.py:run (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/main.py:runTests (0)<br>/home/jenkins/venv/inst/lib/python2.7/unittest/main.py:__init__ (0)<br>gumby/experiments/tribler_idle_run/tribler_idle_run.py:<module> (0)</div></td>
+			<td>/tmp/tmp.fSfWNANa8g/.Xdefaults-gorilla2</td>
+			<td>python</td>
+			<td>16</td>
+		</tr>
+    
+	</table>
+
+</body>
+</html>
