@@ -1,0 +1,12 @@
+"","FILE","type","PROCESS","BYTES"
+"5","/home/jenkins/workspace/Test_performance_Tribler_idle_all_revs/tribler/Tribler/Test/test_.Tribler/sessconfig.pickle","other","python",1994
+"11","/var/cache/fontconfig/6333f38776742d18e214673cd2c24e34-le64.cache-3","other","python",308
+"3","/home/jenkins/workspace/Test_performance_Tribler_idle_all_revs/tribler/Tribler/Test/test_.Tribler/ec.pem","other","python",211
+"4","/home/jenkins/workspace/Test_performance_Tribler_idle_all_revs/tribler/Tribler/Test/test_.Tribler/ecpub.pem","other","python",166
+"1","","other","python",160
+"10","/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf","other","python",137
+"9","./Tribler/Core/Swift/SwiftDownloadRuntimeConfig.py","other","python",105
+"2","/home/jenkins/venv/lib/python2.7/encodings/asciimodule.so","other","python",104
+"6","logger.conf","other","python",37
+"7","output/annotations.txt","other","python",32
+"8","/tmp/tmp.fSfWNANa8g/.Xdefaults-gorilla2","other","python",24

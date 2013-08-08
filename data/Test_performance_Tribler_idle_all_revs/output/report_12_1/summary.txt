@@ -1,0 +1,4 @@
+Report name: report_12_1
+Data monitored for: Lalla arr
+Total number of write transactions is: 11435
+Total bytes written is: 400372847
